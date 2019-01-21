@@ -11,8 +11,6 @@ xgboost_params_space = [Real(1e-7, 1, prior='log-uniform', name='learning_rate')
                 Real(0.5, 1.0, name='colsample_bytree'),
                 Real(0.5, 1.0, name='colsample_bynode'), 
                 Real(1.0, 16.0, name='scale_pos_weight'), 
-                Real(0.0, 100, name='bagging_temperature'), 
-                Real(0.0, 100, name='random_strength'), 
                 Real(0.0, 100, name='alpha'),
                 Real(0.0, 100, name='lambda'),
                 Real(0.0, 100, name='gamma')]
